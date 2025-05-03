@@ -18,7 +18,7 @@ def main():
             if is_valid_wage(e_wage):
                     break
             
-        record = (f"\n{first_name}, {last_name}, {e_id}, ${e_wage:.2f}")
+        record = (f"\n{last_name}, {first_name}, {e_id}, $ {e_wage:.2f}")
         file.write(record)
         print("Employee data recorded. ")
     file.close()
